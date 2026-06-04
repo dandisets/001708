@@ -32,8 +32,8 @@ assetsSummary:
   - Units
 citation: Ashworth, Carl; Martenson, Melissa; Shi, Zhigang; De Preter, Caitlynn C;
   Heinricher, Mary; Mancini, Flavia (2026) Noxious stimulation and baseline recordings
-  of ON, OFF and Neutral cells in the rat rostral ventromedial medulla (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001708/draft
+  of ON, OFF and Neutral cells in the rat rostral ventromedial medulla (Version 0.260604.1023)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001708/0.260604.1023
 contributor:
 - affiliation:
   - identifier: https://ror.org/013meh722
@@ -136,12 +136,14 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-01-30T13:28:33.991160+00:00'
+datePublished: '2026-06-04T10:23:28.496494+00:00'
 description: Dataset consisting of single-electrode recordings in lightly anesthetized
   Sprague-Dawley rats, during both unstimulated periods of activity lasting roughly
   25 minutes, and multiple episodes of noxious hind paw stimulation with heat ramp
   and noxious pinch. For the accompanying preprint see https://doi.org/10.64898/2025.12.15.693905.
+doi: 10.48324/dandi.001708/0.260604.1023
 ethicsApproval: []
-id: DANDI:001708/draft
+id: DANDI:001708/0.260604.1023
 identifier: DANDI:001708
 keywords:
 - Nociception
@@ -161,9 +163,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001708/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001708/0.260604.1023/assets.yaml
 name: Noxious stimulation and baseline recordings of ON, OFF and Neutral cells in
   the rat rostral ventromedial medulla
+publishedBy:
+  endDate: '2026-06-04T10:23:28.496494+00:00'
+  id: urn:uuid:6cefe40b-a0f7-4f57-89d0-154e3fc504aa
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-06-04T10:23:28.496494+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:60707860-5887-4a0b-888b-5cfb5e821de0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Multi-timescale Rhythmic Dynamics in Rostral Ventromedial Medulla Neurons
   relation: dcite:IsCitedBy
@@ -177,6 +191,6 @@ schemaVersion: 0.7.0
 studyTarget:
 - Computational modelling of ON- and OFF-cells in the rostral ventromedial medulla
   during noxious stimulation and ongoing activity
-url: https://dandiarchive.org/dandiset/001708/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001708/0.260604.1023
+version: 0.260604.1023
 wasGeneratedBy: []
